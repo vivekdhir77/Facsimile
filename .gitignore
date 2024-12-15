@@ -1,0 +1,7 @@
+gpt2_env/
+t5_env/
+__pycache__/
+*.pyc
+*.env
+gpt2_env/
+t5_env/
