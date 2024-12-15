@@ -4,7 +4,7 @@ import os
 import sqlite3
 import glob
 from datetime import datetime, timedelta
-warnings.filterwarnings("ignore")  # Suppress warnings
+warnings.filterwarnings("ignore")  
 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
@@ -30,7 +30,6 @@ def get_contact_names():
     """Get contact names from macOS Contacts database"""
     contact_names = {}
     try:
-        # Try different possible paths for Contacts database
         possible_paths = [
             "~/Library/Application Support/AddressBook/Sources/*/AddressBook-v22.abcddb",
             "~/Library/Application Support/AddressBook/Sources/*/AddressBook.adressbook",
@@ -53,7 +52,6 @@ def get_contact_names():
         conn = sqlite3.connect(contacts_path)
         cursor = conn.cursor()
 
-        # Updated query for newer Contacts database structure
         query = """
             SELECT 
                 ZABCDPHONENUMBER.ZFULLNUMBER,
@@ -69,14 +67,12 @@ def get_contact_names():
         
         for number, first, last, org in cursor.fetchall():
             if number:
-                # Format phone number consistently
                 formatted_number = ''.join(c for c in number if c.isdigit())
                 if len(formatted_number) == 10:
                     formatted_number = '+1' + formatted_number
                 elif len(formatted_number) > 10:
                     formatted_number = '+' + formatted_number
                 
-                # Use organization name if no personal name available
                 name = ' '.join(filter(None, [first, last]))
                 if not name and org:
                     name = org
@@ -98,7 +94,6 @@ def fetch_messages(days_back=7, contact=None):
             print(f"Messages database not found at: {messages_db}")
             return "Error: Messages database not found. Make sure you've granted Full Disk Access to Terminal.", []
 
-        # Get contact names
         contact_names = get_contact_names()
         
         conn = sqlite3.connect(messages_db)
@@ -130,7 +125,6 @@ def fetch_messages(days_back=7, contact=None):
         cursor.execute(query, (days_back_str,))
         messages = cursor.fetchall()
         
-        # Group messages by chat
         chat_messages = {}
         for msg in messages:
             try:
@@ -166,7 +160,6 @@ def fetch_messages(days_back=7, contact=None):
         if not chat_messages:
             return "No messages found in the specified time period.", []
         
-        # Format conversations
         all_messages = []
         conversation_text = "Multiple conversations:\n\n"
         
@@ -189,10 +182,8 @@ def fetch_messages(days_back=7, contact=None):
 def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
     """Generate summary using BART"""
     try:
-        # Get contact names once at the start
         contact_names = get_contact_names()
         
-        # Split conversations and summarize each separately
         conversations = text.split("---")
         summaries = []
         
@@ -200,7 +191,6 @@ def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
             if not conversation.strip():
                 continue
                 
-            # Format each conversation
             formatted_text = (
                 "can you summarize these messages in detail, including:\n"
                 "- what started the conversation\n"
@@ -210,7 +200,6 @@ def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
                 f"{conversation.strip()}"
             )
             
-            # Encode with special tokens and longer context
             inputs = tokenizer(
                 formatted_text,
                 max_length=1024,
@@ -219,7 +208,6 @@ def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
                 return_tensors="pt"
             )
             
-            # Generate summary with optimized parameters
             summary_ids = model.generate(
                 inputs["input_ids"],
                 attention_mask=inputs["attention_mask"],
@@ -235,10 +223,8 @@ def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
                 repetition_penalty=1.2
             )
             
-            # Decode and clean up
             summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
             
-            # Clean up common prefixes
             prefixes = ["The conversation shows", "In this conversation", "This is about", "The messages show"]
             for prefix in prefixes:
                 if summary.lower().startswith(prefix.lower()):
@@ -248,7 +234,6 @@ def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
                     break
             
             if summary:
-                # Extract chat name if present
                 chat_name = ""
                 if "Chat with" in conversation:
                     chat_name = conversation.split("Chat with")[1].split("\n")[0].strip(":\n ")
@@ -257,7 +242,6 @@ def generate_summary(text, model, tokenizer, max_length=150, min_length=30):
                 
                 summaries.append(summary)
         
-        # Combine all summaries
         final_summary = "\n\n".join(summaries)
         return final_summary.strip()
         
