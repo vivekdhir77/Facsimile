@@ -1,0 +1,201 @@
+{
+  "example_weekly_summaries": [
+    {
+      "contact": "Professor Loessi",
+      "week_start": "2024-12-16",
+      "week_end": "2024-12-23",
+      "summary": "Anthony's Canvas grade is unweighted, so when the weighting is applied his final grade moved into the A range. It was good to have Anthony in the class this semester, but he should have asked more questions as he should've received more points.   \u00a0Professor Loessi wishes more students would ask more questions and wishes them a great holiday. \u00a0   .   i   in the end, Anthony got an A grade.  in his Canvas class, which is what he got because of weighting applied to the grade he got on the Canvas, which moved his grade to A range, which he got from the A to the A. in the A-grade range.  In the end. Anthony's grade is A-A-A. in his class,  in which he received an A- grade in all the classes he took this semester and in the final one he got a grade of A. ",
+      "created_at": "2024-12-16 19:57:47.068273"
+    },
+    {
+      "contact": "Tim Tran",
+      "week_start": "2024-12-16",
+      "week_end": "2024-12-23",
+      "summary": "Tim Tran bought this morning and is 40% up. Quantum computing is going crazy. Soundhound is getting pushed. Archer aviation was the only safe investment as a big investment fund dropped millions into them. Tim Tran is up like 4k on Amazon.   \u00a0   in this way he is not worried if he loses 50% of his investment. He is just throwing money in and if he doesn't make it, it doesn't matter. He doesn't want to lose the money he has already invested. He wants to make it worth it if he does not make it after all, since he is already up so much. He considers it to be a high risk investment, but it's the only one that is safe.  He thinks it's better than investing in soundhound, because it's a high-risk investment, which is the one he went in for, since it's more secure than soundhound which is more risky.  It's also the only investment that is more secure.",
+      "created_at": "2024-12-16 19:57:37.658135"
+    },
+    {
+      "contact": "Professor Loessi",
+      "week_start": "2024-11-11",
+      "week_end": "2024-11-18",
+      "summary": " summary 3 is the last Sim summary and covers quarters 5:6. It covers summary 3:1-3:3:5 and covers Sim quarters 3:2-5:5:6, as Professor Loessi informs Anthony. It's the last summary of Sim quarter 3:3-3-5. It is called summary 3 for Sim quarter 5:5-6:3. It also covers Sim quarter 4:4-4:4:5, and Sim quarter 7:7-7:7, which is Sim quarter 8:7:8, which covers quarters 7:8-8:8.   \u00a0It's summary 4:8:9-9:0:1:1, and it covers quarters 9:8 to 9:9:2:1 and quarters 10:10-10:2, which cover quarters 11:11-11:2 and 10:11:3, which are quarters 12:12:1. ",
+      "created_at": "2024-12-16 19:54:24.225014"
+    },
+    {
+      "contact": "Sebastian",
+      "week_start": "2024-09-30",
+      "week_end": "2024-10-07",
+      "summary": "Sebastian's cat is going to have her uterus removed tomorrow. She doesn't want to eat. Sebastian left her at home. She's recovering and is still attached to Sebastian. Sebastian is nervous but looking forward to her being calmer overall. Sebastian had to help her to get in the litter box. Sebastian's cat can get up from the cot and get to the bathroom on her own. Sebastian laughed at the advice to wear a mask and to keep her calm. Sebastian and his cat are still in love and Sebastian is happy that she still loves him. Sebastian jokes that she's not mittens 2.0, but she's an adult and still loves Sebastian, so he's happy she's still with him. He's also happy to hear \"Yay\" from her.    He jokes at her saying \"Further proving my point\"   and \"Peor, ya no se quero lloraba m\u00e1s tu o yo\".  ",
+      "created_at": "2024-12-16 19:51:39.221020"
+    },
+    {
+      "contact": "Mom",
+      "week_start": "2024-09-30",
+      "week_end": "2024-10-07",
+      "summary": "Mom has to apply for FAFSA for the pr\u00f3ximo a\u00f1o, but the deadline has been changed for Dec. Mom and Rosita are going to have to wait for the results of the operation on Rosita. Mom went to Target to buy food for Rosita and for herself. Mom is checando todays' cheques to prepare for the operation. Mom's mother used to bring comida to Rosita when she was enfermosa. Mom considers it a good idea to prepare the cheques for both of them to save money for future operations.   \u00a0Mom is proud of the fact that Rosita's operation is going to be a success. Mom believes that saving money for the future operations is more important than saving for the past one or two operations. Mom also believes that the trajecito esta mucho mejor, so she doesn't want to ponerselo. Mom thinks that it's a buena decisi\u00f3n that she chose to go to Target.",
+      "created_at": "2024-12-16 19:51:29.768359"
+    }
+  ],
+  "example_identity_summaries": [
+    {
+      "contact": "Professor Loessi",
+      "summary": "This person is demanding and serious. Common topics of discussion include education, work and shared memories. They appear to be a professional contact. The person is serious and demanding. They seem to be professional and serious in their messages. They talk about education and work. They also talk about shared memories and shared experiences. They discuss shared memories with each other. They are serious and serious, but also friendly and friendly.  They talk to each other about common topics of conversation.  ",
+      "personality_traits": {
+        "demanding": 0.8848475217819214,
+        "serious": 0.6203300952911377
+      },
+      "relationship_context": {
+        "professional contact": 0.4244401454925537
+      },
+      "common_topics": {
+        "education": 0.5310308933258057,
+        "work": 0.44112148880958557,
+        "shared memories": 0.30305033922195435
+      },
+      "confidence_scores": "{\"personality\": 0.7525888085365295, \"relationship\": 0.4244401454925537, \"topics\": 0.42506757378578186}",
+      "created_at": "2024-12-16 20:02:37.785260"
+    },
+    {
+      "contact": "Sebastian",
+      "summary": "This person is casual, serious, friendly, emotional, supportive, analytical, humorous, demanding, formal and professional. Common topics of discussion include shared memories, hobbies, personal life, entertainment, travel, technology, education, sports, future plans, family, work, food. They appear to be a mentor/mentee to the person they are messaging. They are casual and serious, but friendly and supportive. They seem to be analytical and humorous, but also formal and demanding. ",
+      "personality_traits": {
+        "casual": 0.9121684432029724,
+        "serious": 0.9084607362747192,
+        "friendly": 0.9074978232383728,
+        "emotional": 0.9067448973655701,
+        "supportive": 0.9006337523460388,
+        "analytical": 0.8992352485656738,
+        "humorous": 0.8974369168281555,
+        "demanding": 0.8904585838317871,
+        "formal": 0.8833850026130676,
+        "professional": 0.8679958581924438
+      },
+      "relationship_context": {
+        "mentor/mentee": 0.256568968296051
+      },
+      "common_topics": {
+        "shared memories": 0.9673876762390137,
+        "hobbies": 0.9340513348579407,
+        "personal life": 0.9256554841995239,
+        "entertainment": 0.9229812026023865,
+        "travel": 0.9154369831085205,
+        "technology": 0.8918059468269348,
+        "education": 0.8790165781974792,
+        "sports": 0.8724426627159119,
+        "future plans": 0.863270103931427,
+        "family": 0.8577137589454651,
+        "work": 0.8466935753822327,
+        "food": 0.7662835717201233
+      },
+      "confidence_scores": "{\"personality\": 0.8974017262458801, \"relationship\": 0.256568968296051, \"topics\": 0.8868949065605799}",
+      "created_at": "2024-12-16 20:01:31.800646"
+    },
+    {
+      "contact": "Mom",
+      "summary": "Based on their messages, this person is supportive, friendly, emotional, serious, humorous, analytical, professional, demanding, formal, casual. Common topics of discussion include personal life, shared memories, travel, family, hobbies, future plans, technology, sports, work, entertainment, food, education, etc. They appear to be a family member to many people. They are supportive and friendly, but also serious, analytical and professional. They talk about personal life and shared memories.",
+      "personality_traits": {
+        "supportive": 0.9852945804595947,
+        "friendly": 0.9754999279975891,
+        "emotional": 0.9720479249954224,
+        "serious": 0.9699826240539551,
+        "humorous": 0.9657917022705078,
+        "analytical": 0.9653615951538086,
+        "professional": 0.965194582939148,
+        "demanding": 0.9611129760742188,
+        "formal": 0.9567394852638245,
+        "casual": 0.9519805908203125
+      },
+      "relationship_context": {
+        "family member": 0.1940162479877472
+      },
+      "common_topics": {
+        "personal life": 0.9916648864746094,
+        "shared memories": 0.9798885583877563,
+        "travel": 0.975221574306488,
+        "family": 0.9732584357261658,
+        "hobbies": 0.9679608345031738,
+        "future plans": 0.9675654768943787,
+        "technology": 0.9641814827919006,
+        "sports": 0.9629615545272827,
+        "work": 0.9557451009750366,
+        "entertainment": 0.9553247690200806,
+        "food": 0.9527082443237305,
+        "education": 0.948992908000946
+      },
+      "confidence_scores": "{\"personality\": 0.9669005990028381, \"relationship\": 0.1940162479877472, \"topics\": 0.9662894854942957}",
+      "created_at": "2024-12-16 20:01:16.161994"
+    },
+    {
+      "contact": "Dad",
+      "summary": "Based on their messages, this person is analytical, supportive, humorous, friendly, emotional, professional and serious. Common topics of discussion include entertainment, travel, shared memories, personal life, hobbies, technology, education, family, future plans, food, sports and sports. They appear to be a romantic interest. They are interested in entertaining, travel and shared memories. They also talk about technology and education. They discuss future plans and sports as well. They have a lot of common interests.",
+      "personality_traits": {
+        "analytical": 0.8025537133216858,
+        "supportive": 0.7967060804367065,
+        "humorous": 0.7774639129638672,
+        "friendly": 0.6377438902854919,
+        "emotional": 0.5827189087867737,
+        "professional": 0.5393848419189453,
+        "serious": 0.5114486217498779
+      },
+      "relationship_context": {
+        "romantic interest": 0.22131876647472382
+      },
+      "common_topics": {
+        "entertainment": 0.7198254466056824,
+        "travel": 0.6846867799758911,
+        "shared memories": 0.675329864025116,
+        "personal life": 0.6476755142211914,
+        "hobbies": 0.626618504524231,
+        "technology": 0.6188693046569824,
+        "education": 0.5396149158477783,
+        "family": 0.5395711660385132,
+        "future plans": 0.502918541431427,
+        "food": 0.48324015736579895,
+        "sports": 0.4820031225681305
+      },
+      "confidence_scores": "{\"personality\": 0.6640028527804783, \"relationship\": 0.22131876647472382, \"topics\": 0.5927593924782493}",
+      "created_at": "2024-12-16 20:01:00.801853"
+    },
+    {
+      "contact": "Tim Tran",
+      "summary": "Based on their messages, this person is supportive, professional, analytical, emotional, humorous, serious, formal, demanding, casual, friendly. Common topics of discussion include personal life, shared memories, future plans, technology, work, travel, education, hobbies, family, entertainment, sports, food, etc. .    .   i   in this case, they appear to be a professional contact and they discuss personal life and shared memories and future plans. ",
+      "personality_traits": {
+        "supportive": 0.7891155481338501,
+        "professional": 0.7856348752975464,
+        "analytical": 0.779535710811615,
+        "emotional": 0.7598263025283813,
+        "humorous": 0.7481455206871033,
+        "serious": 0.7438064813613892,
+        "formal": 0.6905531883239746,
+        "demanding": 0.6796531081199646,
+        "casual": 0.66474449634552,
+        "friendly": 0.6245516538619995
+      },
+      "relationship_context": {
+        "professional contact": 0.18619754910469055
+      },
+      "common_topics": {
+        "personal life": 0.8948891162872314,
+        "shared memories": 0.889156699180603,
+        "future plans": 0.8815826773643494,
+        "technology": 0.7994183301925659,
+        "work": 0.7873669266700745,
+        "travel": 0.7277376055717468,
+        "education": 0.7239826917648315,
+        "hobbies": 0.7041324973106384,
+        "family": 0.6868977546691895,
+        "entertainment": 0.6776494979858398,
+        "sports": 0.6712768077850342,
+        "food": 0.6103865504264832
+      },
+      "confidence_scores": "{\"personality\": 0.7265566885471344, \"relationship\": 0.18619754910469055, \"topics\": 0.754539762934049}",
+      "created_at": "2024-12-16 19:59:33.866117"
+    }
+  ],
+  "metadata": {
+    "export_date": "2024-12-20T21:48:57.817884",
+    "total_contacts": 73,
+    "total_messages": 11242,
+    "note": "These are selected examples to demonstrate the summarization capabilities"
+  }
+}

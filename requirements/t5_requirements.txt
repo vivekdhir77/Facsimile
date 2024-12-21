@@ -7,6 +7,7 @@ huggingface-hub==0.26.5
 idna==3.10
 imessage-reader==0.6.1
 Jinja2==3.1.4
+loguru==0.7.2
 MarkupSafe==3.0.2
 mpmath==1.3.0
 networkx==3.2.1
